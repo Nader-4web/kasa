@@ -1,0 +1,24 @@
+.block-info {
+  width: 88vw;
+  margin: 30px auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.block-desc-equip {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 5rem;
+  width: 88vw;
+  margin: auto;
+}
+
+@media screen and (max-width: 655px) {
+  .block-info {
+    display: inherit;
+    margin-bottom: 0;
+  }
+  .block-desc-equip {
+    display: inherit;
+  }
+}

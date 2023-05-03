@@ -1,0 +1,30 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  width: 88vw;
+  margin: 3rem auto;
+}
+
+.logonav {
+  margin-right: auto;
+}
+
+.navbar a {
+  color: #ff6060;
+}
+
+.navbar a.activeLink {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 655px) {
+  .navbar {
+    /* padding: 1rem 1rem 0; */
+    gap: 0.5rem;
+  }
+  .navbar a {
+    text-transform: uppercase;
+    font-size: 12px;
+  }
+}

@@ -1,0 +1,60 @@
+.block-host {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.host-pic {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.name-pic {
+  display: flex;
+}
+
+.name {
+  width: 100px;
+  text-align: center;
+}
+
+.stars {
+  display: flex;
+  color: #e3e3e3;
+  font-size: 24px;
+}
+
+.star-on {
+  color: red;
+  font-size: 30px;
+}
+
+.star-off {
+  color: #e3e3e3;
+  font-size: 30px;
+}
+
+@media screen and (max-width: 655px) {
+  .host-pic {
+    width: 32px;
+    height: 32px;
+  }
+  .name {
+    font-size: 12px;
+  }
+
+  .name-pic {
+    order: 1;
+  }
+  .block-host {
+    flex-direction: row;
+    margin-top: 20px;
+  }
+
+  .star-on,
+  .star-off {
+    font-size: 25px;
+  }
+}

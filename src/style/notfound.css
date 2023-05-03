@@ -1,0 +1,30 @@
+.errorblock {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* grid-template-rows: 300px 200px; */
+  grid-template-rows: repeat(3, 1fr);
+  color: #ff6060;
+  text-align: center;
+  height: 100vh;
+  margin-top: 150px;
+}
+
+.errorblock a {
+  color: #ff6060;
+  text-decoration: underline;
+}
+
+.oops {
+  margin: 5rem 0 9rem 0;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 655px) {
+  .oops {
+    font-size: 18px;
+  }
+  .oops {
+    margin: 1rem 0 9rem 0;
+  }
+}

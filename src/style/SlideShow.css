@@ -1,0 +1,58 @@
+.slider {
+  width: 88vw;
+  margin: auto;
+  height: 415px;
+  position: relative;
+}
+
+.picture {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 25px;
+}
+
+.arrow-left {
+  position: absolute;
+  top: 50%;
+  left: 4.5%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+  right: auto;
+  /* background-color: green; */
+}
+
+.arrow-right {
+  position: absolute;
+  top: 50%;
+  right: 0%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+
+.page-number {
+  position: absolute;
+  top: 90%;
+  right: 50%;
+  color: #fff;
+}
+
+.hide-arrows {
+  visibility: hidden;
+}
+
+.visible-arrows {
+  opacity: 0.7;
+  /* visibility: visible; */
+}
+
+.visible-arrows:hover {
+  opacity: 1;
+  transition: 0.3s;
+}
+
+@media screen and (max-width: 655px) {
+  .slider {
+    height: 255px;
+  }
+}
