@@ -1,6 +1,5 @@
 import '../style/Main.css';
 import Card from './Card/index.jsx';
-// import { Link } from 'react-router-dom';
 import './InfoAppart.jsx';
 import { useState } from 'react';
 import { useEffect } from 'react';
@@ -28,13 +27,13 @@ function Main() {
             cover={appartment.cover}
             title={appartment.title}
             id={appartment.id}
-            tags={appartment.tags}
-            pictures={appartment.pictures}
-            host={appartment.host}
-            rating={appartment.rating}
-            location={appartment.location}
-            equipments={appartment.equipments}
-            description={appartment.description}
+            // tags={appartment.tags}
+            // pictures={appartment.pictures}
+            // host={appartment.host}
+            // rating={appartment.rating}
+            // location={appartment.location}
+            // equipments={appartment.equipments}
+            // description={appartment.description}
           />
         </div>
       ))}
