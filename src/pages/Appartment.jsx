@@ -22,7 +22,6 @@ function Appartment() {
       .then((res) => res.json())
       .then((appartments) => {
         const appartment = appartments.find((appart) => appart.id === id);
-        console.log(appartment);
         if (!appartment) {
           return (window.location.href = '/introuvable');
         }

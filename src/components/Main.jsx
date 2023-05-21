@@ -1,6 +1,5 @@
 import '../style/Main.css';
 import Card from './Card/index.jsx';
-// import { Link } from 'react-router-dom';
 import './InfoAppart.jsx';
 import { useState } from 'react';
 import { useEffect } from 'react';
