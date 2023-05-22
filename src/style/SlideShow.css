@@ -55,4 +55,7 @@
   .slider {
     height: 255px;
   }
+  .visible-arrows {
+    opacity: 1;
+  }
 }
